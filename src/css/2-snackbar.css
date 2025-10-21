@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    padding: 50px; 
+    background-color: #fff;
+    width: 100%; 
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    padding: 0; 
+    background-color: transparent;
+    width: 280px;
+    margin-left: 0;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.form input[type="number"] {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+fieldset {
+    border: 1px solid #ccc; 
+    padding: 10px 15px 10px 10px; 
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: normal;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+fieldset label {
+    font-weight: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #f0f0f0; 
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.form button:hover {
+    background-color: #e0e0e0;
+}
